@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+}
+.menu {
+  text-align: right;
+  background-color: #bd6d6d;
+  width: 100%;
+
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 9px 15px;
+  font-weight: bold;
+}
+.menu a:hover {
+  color: white;
+}
+.header{
+  text-align: center;
+  padding: 200px 30px;
+  background-image: url(img/christmas3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header h1 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+.header h2 {
+  margin-bottom: 50px;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+  background-color: #62cdd1;
+  font-size: 20px;
+  border-radius: 7px;
+  padding: 10px 25px;
+}
+.header a:hover {
+  color: white;
+  background-color: red;
+}
+.block1  {
+  text-align:
+}
+h1 {
+  font-family: monospace, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.about_company {
+  padding: 40px 20px;
+  max-width: 1200px;
+
+}
+.about_company_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.about_company p {
+  margin-top: 25px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 240px;
+  padding: 20px;
+  margin: 20px 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px gray;
+  height: 450px;
+}
+.product a{
+  text-decoration: none;
+  background-color: #eb5e34;
+  color: black;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-weight: bold;
+}
+.products {
+  display: flex;
+}
+.offer {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.offer__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.element {
+  background-color: white;
+  width: 30%;
+  height: 500px;
+  color: black;
+  text-align: center;
+  box-shadow: 0 2px 5px gray;
+  font-weight: bold;
+  font-size: 22px;
+}
+.element__h {
+  width: 100%;
+  background-color: #780b26;
+  color: white;
+}
+.element__c p{
+  margin: 3px;
+}
+.element__h h3{
+  padding: 10px;
+}
+.button{
+  text-decoration: none;
+  background-color:#9c1c55;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+#contacts {
+  text-align: center;
+  padding: 40px 0;
+}
+#contacts input{
+  padding: 8px;
+  width: 70%;
+}
+#contacts button{
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 5px 8px gray;
+  background-color: #780b26;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 8px 21px;
+}
